@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # car_insurance_claim_prediction
 
 ## Problem Definition
@@ -58,3 +59,6 @@ policy_id, area_cluster, segment, model, fuel_type, max_torque, max_power, engin
 
 ### Numeric: These columns are numerical, which may need different handling for missing values:
 policy_tenure, age_of_car, age_of_policyholder, population_density, airbags, displacement, cylinder, turning_radius, length, width, height, gross_weight, ncap_rating, is_claim.
+=======
+# Car-Insurance-Claim-Predictions
+>>>>>>> aaba5d564fcce84d32b87ef5b72e64da0374e8cf

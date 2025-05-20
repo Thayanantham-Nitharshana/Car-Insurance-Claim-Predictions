@@ -40,3 +40,15 @@ car_insurance_claim_prediction/
 │
 │-- README.md                      # Project documentation
 │-- requirements.txt                # Python dependencies
+
+
+### Key Features
+  Data cleaning, missing value handling, encoding, outlier detectio
+  EDA with detailed univariate, bivariate, multivariate analysis
+  Feature engineering (parsing engine specs, encoding ratings)
+  Feature selection (RFE, Lasso, Random Forest)
+  Multiple model training (Logistic Regression, Random Forest, XGBoost, SVM, KNN, Naive Bayes, Neural Networks)
+  Model evaluation using AUC, F1-score, precision, recall
+  Interpretability using SHAP
+
+### 📄 All key outputs are saved in reports/ as interactive HTML files for easy review

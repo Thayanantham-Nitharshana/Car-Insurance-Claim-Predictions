@@ -6,7 +6,7 @@ This project aims to develop a machine learning model to predict whether a car i
 
 ## 📁 Project Structure
 
-car_insurance_claim_prediction/
+car_insurance_claim_prediction/\n
 │-- data/
 │ ├── raw/ # Original dataset (train/test)
 │ │ ├── train.csv

@@ -72,11 +72,11 @@ car_insurance_claim_prediction/
 ---
 ## Reports
 
-- data_processing.html (https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/data_processing.html)
-- feature_selection.html (https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/feature_selection.html)
-- model_selection.html (https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/model_selection.html)
-- model_evaluation.html (https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/model_evaluation.html)
-- model_testing.html (https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/model_testing.html)
+- data_processing.html ([https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/data_processing.html](https://html-preview.github.io/?url=https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/data_processing.html))
+- feature_selection.html ([https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/feature_selection.html](https://html-preview.github.io/?url=https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/feature_selection.html))
+- model_selection.html ([https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/model_selection.html](https://html-preview.github.io/?url=https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/model_selection.html))
+- model_evaluation.html ([https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/model_evaluation.html](https://html-preview.github.io/?url=https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/model_evaluation.html))
+- model_testing.html ([https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/model_testing.html](https://html-preview.github.io/?url=https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/model_testing.html))
 
 ---
 

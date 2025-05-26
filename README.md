@@ -6,8 +6,8 @@ This project aims to develop a machine learning model to predict whether a car i
 
 ## 📁 Project Structure
 
-car_insurance_claim_prediction/\n
-│-- data/
+car_insurance_claim_prediction/
+├── data/
 │ ├── raw/ # Original dataset (train/test)
 │ │ ├── train.csv
 │ │ ├── test.csv
@@ -15,46 +15,46 @@ car_insurance_claim_prediction/\n
 │ │ ├── train_cleaned.csv
 │ │ ├── test_cleaned.csv
 │ │ ├── about Data.txt # Basic understanding about data
-│
-│-- notebooks/ # Jupyter notebooks for EDA, preprocessing, and experiments
+
+├── notebooks/ # Jupyter notebooks for EDA and experiments
 │ ├── 01_data_processing.ipynb
 │ ├── 02_feature_selection.ipynb
 │ ├── 03_model_selection.ipynb
 │ ├── 04_model_evaluation.ipynb
 │ ├── 05_model_testing.ipynb
-│
-│-- src/ # Source code for model development
-│ ├── data_processing.py # Functions for loading & cleaning data
-│ ├── feature_selection.py # Functions for feature extraction
-│ ├── model_selection.py # Model training & selection scripts
-│ ├── model_evaluation.py # Functions for model evaluation
-│ ├── model_testing.py # Prediction script for test dataset
-│
-│-- models/ # Saved machine learning models
+
+├── src/ # Source code for model development
+│ ├── data_processing.py # Data loading and cleaning functions
+│ ├── feature_selection.py # Feature selection methods
+│ ├── model_selection.py # Model training and comparison
+│ ├── model_evaluation.py # Evaluation utilities
+│ ├── model_testing.py # Final testing on unseen data
+
+├── models/ # Saved machine learning models
 │ ├── LightGBM_model.pkl
 │ ├── CatBoost_model.pkl
 │ ├── Gradient Boosting_model.pkl
 │ ├── XGBoost_model.pkl
 │ ├── final_XGboost_model.pkl
-│
-│-- reports/ # Documentation, findings, and exported notebook HTMLs
-│ ├── 30119539.pdf # Academic Dissertation Report
+
+├── reports/ # Reports and exported HTMLs
+│ ├── 30119539.pdf # Academic dissertation report
 │ ├── 01_data_processing.html
 │ ├── 02_feature_selection.html
 │ ├── 03_model_selection.html
 │ ├── 04_model_evaluation.html
 │ ├── 05_model_testing.html
-│
-│-- outputs/ # Feature selections and prediction outputs
-│ ├── mi_features.csv # Top 20 features
-│ ├── test_predictions_full.csv# Final predictions
-│
-│-- powerBI/ # Power BI dashboard and final test data
+
+├── outputs/ # Output files
+│ ├── mi_features.csv # Selected top features
+│ ├── test_predictions_full.csv # Final test predictions
+
+├── powerBI/ # Power BI dashboard and output
 │ ├── Car_Insurance_claim_predictions.pbix
-│ ├── test.csv # Test data with predictions & policyID
-│
-│-- README.md # Project documentation
-│-- requirements.txt # Python dependencies
+│ ├── test.csv # Combined test data with predictions
+
+├── README.md # Project documentation
+├── requirements.txt # Python dependencies
 
 
 ##  Folder Overview
@@ -68,6 +68,15 @@ car_insurance_claim_prediction/\n
 - ✅ **`powerBI/`** – Contains Power BI dashboard and merged test output.
 - ✅ **`README.md`** – Project documentation.
 - ✅ **`requirements.txt`** – Lists required Python libraries.
+
+---
+## Reports
+
+- data_processing.html (https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/data_processing.html)
+- feature_selection.html (https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/feature_selection.html)
+- model_selection.html (https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/model_selection.html)
+- model_evaluation.html (https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/model_evaluation.html)
+- model_testing.html (https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/model_testing.html)
 
 ---
 

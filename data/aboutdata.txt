@@ -1,0 +1,143 @@
+ ++++++++++++++++++++
+ from basic analysis
+ ++++++++++++++++++++
+ 
+ #   Column                            Dtype  
+---  ------                            -----  
+ 0   policy_id (Drop this)             object 
+ 4   area_cluster	                   object ['C1' 'C2' 'C3' 'C4' 'C5' 'C6' 'C7' 'C8' 'C9' 'C10' 'C11' 'C12' 'C13' 'C14' 'C15' 'C16' 'C17' 'C18' 'C19' 'C20' 'C21' 'C22']
+ 
+ 12  engine_type                       object ['F8D Petrol Engine' '1.2 L K12N Dualjet''1.0 SCe''1.5 L U2 CRDi''1.5 Turbocharged Revotorq'    'K Series Dual jet' '1.2 L K Series Engine' 'K10C' 'i-DTEC' 'G12B' '1.5 Turbocharged Revotron']
+ 
+ 10  max_torque                        object ['60Nm@3500rpm' '113Nm@4400rpm' '91Nm@4250rpm' '250Nm@2750rpm' '200Nm@3000rpm' '82.1Nm@3400rpm' '200Nm@1750rpm' '85Nm@3000rpm' '170Nm@4000rpm']
+ 
+ 11  max_power                         object ['40.36bhp@6000rpm' '88.50bhp@6000rpm' '67.06bhp@5500rpm' '113.45bhp@4000rpm' '88.77bhp@4000rpm' '55.92bhp@5300rpm' '97.89bhp@3600rpm' '61.68bhp@6000rpm' '118.36bhp@5500rpm']
+ 
+ 7   segment                           object ['A' 'C1' 'C2' 'B2' 'B1' 'Utility']
+ 8   model                             object ['M1' 'M2' 'M3' 'M4' 'M5' 'M6' 'M7' 'M8' 'M9' 'M10' 'M11']
+ 9   fuel_type                         object ['CNG' 'Petrol' 'Diesel'] <--CNG means Compressed natural gas 
+ 19  rear_brakes_type                  object ['Drum' 'Disc']
+ 22  transmission_type                 object ['Manual' 'Automatic']
+ 24  steering_type                     object ['Power' 'Electric' 'Manual']
+Total(11)
+ 
+ 1   policy_tenure                     float64
+ 2   age_of_car                        float64
+ 3   age_of_policyholder               float64
+ 25  turning_radius                    float64
+ 5   population_density                int64  
+ 6   make                              int64
+ 13  airbags                           int64 
+ 20  displacement                      int64  
+ 21  cylinder                          int64   
+ 23  gear_box                          int64
+ 26  length                            int64  
+ 27  width                             int64  
+ 28  height                            int64  
+ 29  gross_weight                      int64 
+ 42  ncap_rating                       int64  
+ 43  is_claim                          int64  
+ Total(16)
+ 
+ 14  is_esc ('No','Yes')  	           				object 
+ 15  is_adjustable_steering('No','Yes')				object 
+ 16  is_tpms ('No','Yes')              				object 
+ 17  is_parking_sensors ('No','Yes')   				object 
+ 18  is_parking_camera('No','Yes')     				object
+ 30  is_front_fog_lights('No','Yes')   				object 
+ 31  is_rear_window_wiper('No','Yes')  				object 
+ 32  is_rear_window_washer('No','Yes') 				object 
+ 33  is_rear_window_defogger('No','Yes')			object 
+ 34  is_brake_assist('No','Yes')					object 
+ 35  is_power_door_locks('No','Yes')				object 
+ 36  is_central_locking ('No','Yes')				object 
+ 37  is_power_steering  ('No','Yes')				object 
+ 38  is_driver_seat_height_adjustable('No','Yes')	object 
+ 39  is_day_night_rear_view_mirror('No','Yes')		object 
+ 40  is_ecw ('No','Yes')							object 
+ 41  is_speed_alert ('No','Yes')					object
+ Total(17)
+ 11+16+17=44
+---------------------------------------------------------------
++++++++++
+From EDA
++++++++++
+Is_claim is target feature
+
+Important Feature
+Numeric
+	policy_tenure
+	age_of_car
+	age_of_policyholder
+	population_density
+	displacement	
+	gross_weight	
+	ncap_rating		
+	power			
+	turning_radius	
+	airbags
+	torque_value  
+	power_value 
+	   
+
+Catecarical 
+	area_cluster
+	engine_type	
+	segment		
+	model		
+
+Boolean
+	is_brake_assist					
+	is_power_door_locks				
+	is_driver_seat_height_adjustable
+	is_speed_alert					
+	is_ecw
+
+Less important from Bivariate analysis 
+---------------------------------------
+Numeric
+	cylinder
+	gear_box
+	make
+	length
+	width
+	height
+	torque_rpm
+	power_rpm
+
+Categorical
+	policy_id
+	steering_type	
+	transmission_type
+	fuel_type		
+	rear_brakes_type
+	
+Boolean
+	is_esc
+	is_adjustable_steering
+	is_tpms
+	is_parking_sensors
+	is_parking_camera
+	is_front_fog_lights
+	is_rear_window_wiper
+	is_rear_window_washer
+	is_rear_window_defogger
+	is_central_locking
+	is_power_steering
+	is_day_night_rear_view_mirror
+---------------------------------------------------------------------------------
++++++++++++++++++++++++
+from feature selection 
++++++++++++++++++++++++
+Mutual Information (MI) is the best feature selection method
+
+['transmission_type', 'is_front_fog_lights', 'is_day_night_rear_view_mirror',
+ 'is_central_locking', 'is_power_steering', 'steering_type', 'is_brake_assist',
+ 'is_speed_alert', 'is_driver_seat_height_adjustable', 'is_adjustable_steering',
+ 'rear_brakes_type', 'is_parking_sensors', 'is_power_door_locks', 'cylinder',
+ 'is_ecw', 'policy_tenure', 'area_cluster', 'population_density', 'age_of_car',
+ 'age_of_policyholder']
+ 
+----------------------------------------------------------------------------------
+Best Moel is XGBoost selected
+

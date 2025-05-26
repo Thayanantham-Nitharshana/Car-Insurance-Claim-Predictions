@@ -1,6 +1,7 @@
 ## Car Insurance claim predictions
 This project aims to develop a machine learning model to predict whether a car insurance policyholder is likely to make a claim. The dataset used for this study is sourced from Kaggle and includes various attributes related to vehicle and policyholder characteristics.
 
+## Project Structure
 car_insurance_claim_prediction/
 │-- data/
 │   ├── raw/                   # Original dataset (train/test)
@@ -52,6 +53,7 @@ car_insurance_claim_prediction/
 │-- README.md                      # Project documentation
 │-- requirements.txt                # Python dependencies
 
+## Folder Overview
 ✅ data/ → Stores raw and processed datasets.
 ✅ notebooks/ → Jupyter notebooks for preprocessing, feature selection, and training.
 ✅ src/ → Python scripts for data processing, feature engineering, model evaluation, and model training.

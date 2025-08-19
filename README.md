@@ -77,7 +77,7 @@ car_insurance_claim_prediction/
 - model_selection.html ([https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/model_selection.html](https://html-preview.github.io/?url=https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/model_selection.html))
 - model_evaluation.html ([https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/model_evaluation.html](https://html-preview.github.io/?url=https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/model_evaluation.html))
 - model_testing.html ([https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/model_testing.html](https://html-preview.github.io/?url=https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/model_testing.html))
-
+- Final report https://github.com/Thayanantham-Nitharshana/Car-Insurance-Claim-Predictions/blob/main/reports/Nitharshana_30119539.pdf
 ---
 
 ## Dataset
